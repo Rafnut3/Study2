@@ -1,0 +1,108 @@
+.home__bg {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    border-radius: 30px;
+
+    background-size: cover;
+    margin: 0 30px 30px 30px;
+    position: relative;
+    
+}
+
+.home__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 90px;
+}
+
+.home__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 10px;
+}
+
+.home__img {
+    width: 686.83px;
+    height: 650px;
+}
+
+.home__title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+    margin-left: 100px;
+}
+
+.home__title:first-child {
+    margin-left: 0px;
+}
+
+.home__title:last-child {
+    margin-left: 300px;
+
+    position: relative;
+}
+
+
+.home__title:last-child::after {
+    content: "";
+    display: block;
+
+    width: 274px;
+    height: 129px;
+
+    position: absolute;
+
+    background: url(img/homeimg/homebee.svg) left no-repeat;
+
+    border-bottom: 2px black solid;
+
+    right: 360px;
+    bottom: 10%;
+    z-index: 100;
+}
+
+
+.home__links {
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+.home__btn {
+    font-family: Kodchasan;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+
+    padding: 18px 50px;
+
+    border: 2px black solid;
+    background: none;
+
+}
+
+.home__btn_active {
+    background: black;
+    color: #FFFFFF;
+}
+
+
+
+
+.home__item {
+    width: 205px;
+    height: 321.56px;
+    position: absolute;
+    z-index: 1000;
+
+    top: 14%;
+    left: 0;
+}

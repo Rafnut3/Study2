@@ -1,0 +1,73 @@
+.about {
+    max-width: 1378px;
+    margin: 0 auto;
+}
+
+
+.shops {
+    max-width: 1146px;
+    margin: 130px auto;
+}
+
+.shops__title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.shops__wrapper {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.about__item:last-child{
+    flex-direction: row-reverse;
+}
+
+.about__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about__title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65.25px;
+}
+
+.about__text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35.2px;
+}
+
+.about__btn {
+    font-family: Kodchasan;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #fff;
+
+    padding: 15px 40px;
+
+    background-color: #E58311;
+    
+    border: 0px;
+
+
+}
